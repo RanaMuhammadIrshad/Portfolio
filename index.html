@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rana Muhammad Irshad - Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" id="mamu" href="#section--3">Courses</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn" href="#section--4">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>Hi, I am</h1>
+        <h1>Rana Muhammad Irshad</h1>
+        <h4>
+          Junior web developer based in Bremen. A Student at DCI – Digital
+          Career Institute gGmbH
+        </h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img
+          src="img/Rana Muhammad Irshad.jpg"
+          class="header__img"
+          alt="Portfolio image"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">About</h2>
+        <p class="section__header about">
+          Junior full-stack developer. Sound practical knowledge of all stages
+          of the development cycle for dynamic web projects. Well-versed in
+          relevant techniques including, JavaScript, React.js, Bootstrap, HTML5,
+          CSS3, and Sass. Strong background in project management and customer
+          relations. I am seeking a full-time position in the field of front-end
+          development, where i can apply my knowledge, skills and also develop
+          myself further by learning new technologies and working with people
+          and projects that will challenge me. I am highly motivated, creative
+          and problem-solving-oriented person who enjoys learning new things.
+          <br />
+          <br />
+          <span class="git__info">Github Information</span>
+          <span class="github"></span>
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Projects</h2>
+        <h3 class="section__header">
+          Some import projects are listed here which are being improved all the
+          time. For more projects please visit my GitHub account.
+          <span
+            ><a href="https://github.com/RanaMuhammadIrshad" target="_blank"
+              >GitHub</a
+            ></span
+          >
+        </h3>
+      </div>
+
+      <div class="projects">
+        <div class="projects__tab-container">
+          <button
+            class="btn projects__tab projects__tab--1 projects__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Forkify App
+          </button>
+          <button class="btn projects__tab projects__tab--2" data-tab="2">
+            <span>02</span>Guess My Number
+          </button>
+          <button class="btn projects__tab projects__tab--3" data-tab="3">
+            <span>03</span>Expense-Tracker
+          </button>
+        </div>
+        <div
+          class="projects__content projects__content--1 projects__content--active"
+        >
+          <h5 class="projects__header">
+            Building a modern application using JavaScript, HTML and CSS.
+          </h5>
+          <p>
+            This application is all about searching for recipes and displaying
+            them on the user interface. Different features of modern web
+            applications including, fetching data from API, pagination,
+            book-mark, adding new recipes and many more are implemented in this
+            project. For more details see its live version here.
+            <span
+              ><a
+                href="https://forkify-rana-irshad.netlify.app/"
+                target="_blank"
+                >Forkify App</a
+              ></span
+            >
+          </p>
+        </div>
+
+        <div class="projects__content projects__content--2">
+          <h5 class="projects__header">
+            Simple game to guess the hidden number using JavaScript, HTML and
+            CSS.
+          </h5>
+          <p>
+            A random number is generated to guess it in 20 attempts. Different
+            JavaScript features are using to keep track of highest score that
+            one score in different games. If you won the game, the screen
+            changes it color with win message. There is also a button to reset
+            the game at any stage of play. For more details see its live version
+            here.
+            <span
+              ><a
+                href="https://ranamuhammadirshad.github.io/project-guess-my-number/"
+                target="_blank"
+                >Guess My Number</a
+              ></span
+            >
+          </p>
+        </div>
+        <div class="projects__content projects__content--3">
+          <h5 class="projects__header">An Expense Tracker by using React.</h5>
+          <p>
+            in this react application we keep track of various expenses. We can
+            dynamically add and remove expenses. We could also sort the expenses
+            based on expense year. The expenses are also shown graphically in
+            various months of a selected year. For more details see its live
+            version here.
+            <span
+              ><a
+                href="https://ranamuhammadirshad.github.io/Expense-Tracker-React-App/"
+                target="_blank"
+                >Expense-Tracker</a
+              ></span
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--courses_info">
+        <h2 class="section__description">Courses</h2>
+        <h3 class="section__header">
+          Udemy courses are taking to further develop advanced web development
+          skills
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="courses">
+            <h5 class="courses__header">
+              The Complete JavaScript Course 2022: From Zero to Expert (Jonas
+              Schmedtmann).
+            </h5>
+            <blockquote class="courses__text">
+              Become an advanced, confident, and modern JavaScript developer
+              from scratch. Build real-world projects for your portfolio. Modern
+              ES6+ from the beginning including arrow functions, destructuring,
+              spread operator, optional chaining (ES2020), etc. Asynchronous
+              JavaScript which covers event loop, promises, async/await, AJAX calls and
+              APIs. Practice your skills with 50+ challenges and assignments.
+              
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="courses">
+            <h5 class="courses__header">
+              React - The Complete Guide (incl Hooks, React Router and Redux) (
+              Maximilian Schwarzmüller).
+            </h5>
+            <blockquote class="courses__text">
+              One of the most popular online React course. React.js including
+              Hooks, Redux, React Routing, Animations, Next.js and more. Build
+              powerful, fast, user-friendly and reactive web applications.
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="courses">
+            <h5 class="courses__header">
+              50 Projects In 50 Days - HTML, CSS & JavaScript (Brad Traversy and
+              Florin Pop).
+            </h5>
+            <blockquote class="courses__text">
+              Project based course to learn and enhance HTML, CSS & JavaScript
+              skills. Excellent opportunity to build unique projects in a short
+              time frame. Modern styling with flex-box, CSS animations and
+              custom properties. DOM-manipulation, events, array methods, HTTP
+              requests & more.
+            </blockquote>
+          </div>
+        </div>
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+    
+    <section class="section" id="section--4">
+      <div class="section__title">
+        <h2 class="section__description">Contact</h2>
+        <form id="form" class="contact__form">
+          <label>First Name</label>
+          <input
+            type="text"
+            id="firstName"
+            placeholder="Enter your first name"
+            required
+          />
+          <label>Last Name</label>
+          <input
+            type="text"
+            id="lastName"
+            placeholder="Enter your last name"
+            required
+          />
+          <label>Email Address</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+          <label>Your Message</label>
+          <textarea
+            type="text"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Your message...."
+            required
+          ></textarea>
+          <button type="submit" id="sendButton" class="btn send__btn">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"
+      integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init('zb4A69ZW0wqZGoT2J');
+      })();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
